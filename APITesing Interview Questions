@@ -97,8 +97,83 @@
     500 - Internal server error ( Request is not completed due to internal error on serverr side)
     503 - Service Unavilable ( Server is unavilable might be down ) 
     
-    
-
+20 ) What is assertion in API testing?( when we use the request --> click on send --> ( Console Display - Status ,Time(response time ms) ,Size(300kb)) - Save Response
+     Assertions can be made against response header values, status code, response time/size, and content(like JSON or XML).
+     We go to " Tests" tab Beside Pre-requiste tab---> add assertion by writing the code 
+     
+       The ‘pm’ Object: pm is the object that contains the script that’s running in the Postman sandbox. 
+       It allows us  to get request  and response context both once the request is executed.
+       
+       a) To Check the status code 
+           pm.test("Status code is 200", function () 
+           {
+              pm.response.to.have.status(200);
+           }
+           );
+       
+       b) 
+       
+       
+ 21) How data is stored in payload ?
+     dasboard.Purchaseamount ( This way we can access Json data) 
+     Courses is an array so we can access Courses[0].Details.site ( To access course details site
+    { 
+       "dashboard" : 
+       {
+          "Purchaseamount" : 900,
+          "Website"        : "webshop.com" 
+       },
+       
+      " Courses" : [
+          
+          " Price"     :50 ,
+          " Corsename" :Math,
+          " Details" : 
+               {
+                  "site" : "shop.com"
+               },
+               
+               {
+                 "title " : " thhhj",
+                " price " : 60,
+                 "copies" : 2
+               
+               },
+      
+                  ]
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+     
 
 
 
