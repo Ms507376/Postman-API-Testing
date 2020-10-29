@@ -1,0 +1,237 @@
+              
+1)  What is an API?
+        An API (Application Programming Interface) is a software intermediary that enables two applications to communicate with each other using HTTP protocol.
+        API examples, here are the well-known ones: Google Maps API, Amazon Advertising API, Twitter API, YouTube API, etc. 
+        
+2) what all challenges are inculded in API testing ?
+   Challenges inculded in APi testing are 
+   APi documentation :To test an APi we firstly  need endpoint ,parameters ,Resouces ,payload it's not like Ui testing( we start with url)
+   authorization     :while hiting any api  request authorization is needed to hit that request using token.
+   DB access         :When we hit api request , we get response from server and then do data vaildation so DB access is needed.
+   
+3) post and put method in API ?
+   Post request : It is used to Create new object on server.
+   Put Request  : It is used to Update the object in server with New value( Update/modify existing one ) .
+   
+4) What all methods are there in API testing ?
+   Get    :It is used to retrieve the data from server .
+   Post   :it is used to add the data to resources in the server.
+   Put    :It is used to update the existing file /resources in server.
+   Delete :It is used to delete data from server.
+
+5 ) List authentication technilque used in Api ?
+     Session/Cookies based authentication
+     Basic Authentication
+     Oauth 
+     
+6 ) why Api testing is determined as most suitable form of automation testing ?
+    API testing is most suitable form of automation as in UI automation we need to launch the url ,wait for loading of page and then going to particular tab and 
+    then following operation.
+    API testing is verylight weight and more stable in nature here we directly hit the api and perform the operation.(If internet connection is not good there
+    might be chances of test break in Ui but not in API).
+    
+7)  what is Rest API ?( Representational state transfer).
+    It is a set of functions which helps developer in performing the request and receving the response .
+    In Rest APi interaction is made though HTTP protocol.
+    
+8 ) what exactly needs to verify in API testing ?
+    a) accuracy of data ( whatever the data we are getting in response( json format that is same as dB or not).
+    b) will verify HTTP status code
+    c) Response time 
+    d) Error code verification ( 401- ,403 error)
+    e) Authorization ( Every one doesn't have permission to access APi as valid credential is needed) to access the APi.
+    
+9 ) Path Paramter andd Query paramter in API ?
+      URL  :  https://rahulshettyacademy.com/orders/122345?loaction=IND 
+      Here   https://rahulshettyacademy.com ( API which we are using ) 
+             Orders ( resource ) 
+             https://rahulshettyacademy.com/orders/122345( Path parameter)- In this api we are going to orders resource and then navigating to order no 122345 
+             ?loaction=IND ( Query Paramter) 
+            
+10 )  What are the component of HTTP request in API testing  
+      URI : It is endpoint where API is hosted.( https://rahulshettyacademy.com)
+      HTTP reuest Method : Put, Post ,Delete
+      Resource ( like above orders is resource)
+      parameters ( Query paramter) 
+      Request Header ( It tells about which type of date we are going to use is it Json or xml ) .
+      Request Body ( It indicates message content ) 
+       suppose if there is add employee api and I want to add the details of employee to the API so i will send the data ( empname ,empid )
+       through request body in json format .
+       
+11)    If there is an api scenario with endpoint , paramters ,Header , cookies and payload ( Which type of request is getting used Get / post?) 
+       If in scenario there is Payload then it is the case of post request beacause payload is message content which we send in Body As a content message.
+       
+12)   Ui and API testing ?
+       UI Testing: frontend testing having web application interaction .( It's complex in nature as so much navigation process to follow here
+       along with application loading issue) 
+       API testing: Backend testing which includes iteraction beteween server using HTTP protocol, light and stable in nature.
+       
+13)   Protocal used for Restful Web service and Soap Webservice ?
+      RestFul webservice:HTTp protocol( it is medium for communication beetween client and server)-(Uses json request for messaging service)-Network bandwidth less required- faster ( light in nature) 
+      Soap webservice  : Soap protocal (simple object access protocal which uses XML request for messaging service)- More Bandwidth required-Slow in nature.
+      
+14 )  Can we use Get request instead of Post to Create a resource ?
+      No,We can't.As Get is used only for Read/ Retrieve the  data.
+      
+15 )  Can We use Post Request instead of Put to create a resource ?
+      As we can use Post request instead of Put to create a resource as it is super set of all HTTP method .
+
+16 ) What is Payload in APi testing ?
+     Payload/ Body is a secured data which is sent to API to process the request.
+     This Payload/body data it will be in json format .
+ 
+17)   What is Rest assured ?
+      It is a java Library which is used to automate Rest APi .
+          
+18 ) Json Serialization and Deserialization ?
+     Converting Java Object into Json Format -Json Serialization 
+     Converting Json to Java Object          - Json Deserialzation
+     
+19) Status code and Corresponding Message in APi testing .
+    200 - Ok
+    201 - created
+    400 - Bad Request ( Invalid Request - If wrong parameter or wrong query ) 
+    401 - Unauthorized ( If it includes autthentication for APi and credential is invalid , Token is not correct ) 
+    403 - Forbidden    ( User Authorized sucessfuly but don't have permission to access that APi ) 
+    404 - Not Found   ( Resource itself is not avilable in server e.g if i want to add employee details and add Employee itself is not there on server) 
+    500 - Internal server error ( Request is not completed due to internal error on serverr side)
+    503 - Service Unavilable ( Server is unavilable might be down ) 
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     
+      
+      
+
+   
+       
+     
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+             
+             
+             
+             
+             
+             
+             
+             
+    
+    
+    
+     
+     
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+         
+         
