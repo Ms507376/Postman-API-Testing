@@ -13,11 +13,14 @@
    Post request : It is used to Create new object on server.
    Put Request  : It is used to Update the object in server with New value( Update/modify existing one ) .
    
-4) What all methods are there in API testing ?
+4) What all methods are there in API testing ? what is difference between Put and Patch??
    Get    :It is used to retrieve the data from server .
    Post   :it is used to add the data to resources in the server.
    Put    :It is used to update the existing file /resources in server.
    Delete :It is used to delete data from server.
+
+  PUT  :Put is used to used to replace an entire resource with a new one.
+  PATCH:Patch is used to update a resource partially, such as by changing the values of one or more fields.
 
 5 ) List authentication technilque used in Api ?
      Session/Cookies based authentication
