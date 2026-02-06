@@ -93,6 +93,8 @@
 19) Status code and Corresponding Message in APi testing .
     200 - Ok
     201 - created
+    204 - No content ( request succesful but there is no content to return).
+    3Xx - (302  temproray redirect) 
     400 - Bad Request ( Invalid Request - If wrong parameter or wrong query ) 
     401 - Unauthorized ( If it includes autthentication for APi and credential is invalid , Token is not correct ) 
     403 - Forbidden    ( User Authorized sucessfuly but don't have permission to access that APi ) 
